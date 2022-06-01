@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "265993410837",
+    "firebase_url": "https://bditsh-a044d-default-rtdb.firebaseio.com",
+    "project_id": "bditsh-a044d",
+    "storage_bucket": "bditsh-a044d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265993410837:android:341929fbfff7fdfa40711c",
+        "android_client_info": {
+          "package_name": "com.dmovil.bdfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265993410837-rughjqsc14tb46pvcv978mfdprb6n24k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9PtAd1hbukSXKVNc4VVNjLxV-54qKQWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265993410837-rughjqsc14tb46pvcv978mfdprb6n24k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265993410837:android:119db1a9e21a139d40711c",
+        "android_client_info": {
+          "package_name": "com.dmovil.roomdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265993410837-rughjqsc14tb46pvcv978mfdprb6n24k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9PtAd1hbukSXKVNc4VVNjLxV-54qKQWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265993410837-rughjqsc14tb46pvcv978mfdprb6n24k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

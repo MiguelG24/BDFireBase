@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#129712"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_noControl"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Número de Control"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:textColor="#ccc"
+                android:textColorHint="#ccc"
+                android:background="@drawable/edt_redondeado"/>
+
+            <EditText
+                android:id="@+id/edt_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Nombre"
+                android:inputType="textCapWords"
+                android:paddingLeft="20dp"
+                android:textColor="#ccc"
+                android:textColorHint="#ccc"
+                android:background="@drawable/edt_redondeado"/>
+
+            <EditText
+                android:id="@+id/edt_apellidos"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Apellidos"
+                android:inputType="textCapWords"
+                android:paddingLeft="20dp"
+                android:textColor="#ccc"
+                android:textColorHint="#ccc"
+                android:background="@drawable/edt_redondeado"/>
+
+            <EditText
+                android:id="@+id/edt_carrera"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Carrera"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:textColor="#ccc"
+                android:textColorHint="#ccc"
+                android:background="@drawable/edt_redondeado"/>
+
+            <EditText
+                android:id="@+id/edt_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Teléfono"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:textColor="#ccc"
+                android:textColorHint="#ccc"
+                android:background="@drawable/edt_redondeado"/>
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Correo electrónico"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp"
+                android:textColor="#ccc"
+                android:textColorHint="#ccc"
+                android:background="@drawable/edt_redondeado"/>
+
+            <EditText
+                android:id="@+id/edt_direccion"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Dirección"
+                android:inputType="textMultiLine"
+                android:paddingLeft="35dp"
+                android:textColor="#ccc"
+                android:textColorHint="#ccc"
+                android:gravity="top"
+                android:background="@drawable/edt_redondeado"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="#00A5FF">
+
+                <ImageButton
+                    android:id="@+id/btn_guardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/guardar"
+                    android:background="@null"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:adjustViewBounds="true"
+                    android:padding="8dp"
+                    android:scaleType="fitCenter"
+                    android:onClick="registrar"/>
+
+                <ImageButton
+                    android:id="@+id/btn_buscar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/buscar"
+                    android:background="@null"
+                    android:layout_marginRight="20dp"
+                    android:onClick="buscar"/>
+
+                <ImageButton
+                    android:id="@+id/btn_editar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/editar"
+                    android:background="@null"
+                    android:layout_marginRight="20dp"
+                    android:onClick="editar"/>
+
+                <ImageButton
+                    android:id="@+id/btn_eliminar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/eliminar"
+                    android:background="@null"
+                    android:layout_marginRight="10dp"
+                    android:adjustViewBounds="true"
+                    android:padding="8dp"
+                    android:scaleType="fitCenter"
+                    android:onClick="eliminar"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
